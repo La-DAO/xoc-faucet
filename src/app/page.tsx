@@ -23,7 +23,7 @@ const config = createConfig({
 export default function Home() {
   return (
     <WagmiConfig config={config}>
-    <main className="flex min-h-screen flex-col items-center px-[12rem]  w-[100vw]">
+    <main className="flex min-h-screen flex-col items-center  w-[100vw]">
       <Header/>
       <MainContent/>
     </main>

@@ -46,7 +46,7 @@ const Header = () => {
 
   return (
     <>
-      <div className='flex  justify-between w-full sticky top-0 bg-white z-40 py-8'>
+      <div className='flex  justify-between w-full sticky top-0 bg-white z-40 py-8 px-[11.9rem]'>
         <Link href='https://ladao.club/'>
           <Image src={LogoLaDao} className='h-[4rem]'></Image>
         </Link>

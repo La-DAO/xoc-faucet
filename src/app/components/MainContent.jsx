@@ -7,9 +7,9 @@ import InputBox from './InputBox'
 const MainContent = () => {
   return (
     <>
-    <div className='w-[100%]'>
+    <div className='w-[100%] px-[12rem]'>
         <div className='flex w-[100%]'>
-            <div className='w-[75%] bg-[#FCF0E4] h-[13rem]' style={{borderRadius: '0px 0px 2000px 0px'}}>
+            <div className='w-[100%] bg-[#FCF0E4] h-[13rem]' style={{borderRadius: '0px 0px 2000px 0px'}}>
                 <p style={{color: '#F15B41',
                     textAlign: 'center',
                     fontFamily: 'Istok Web',
@@ -27,21 +27,21 @@ const MainContent = () => {
                     width:'80%'}}>Stablecoin</p>
             </div>
             <div className='flex flex-col justify-end'>
-                <Image src={XOC2} className='w-[5rem]'/>
+                <Image src={XOC2} className='w-[5rem] mr-2'/>
             </div>
         </div>
-        <div className='flex'>
+        <div className='flex w-full'>
             <div className='w-[25%]'>
                 <Image src={Vitalik} className='h-[35rem] object-cover'/>
             </div>
-                <div>
-                    <div className='h-[8rem] flex gap-6'>
-                        <div className='w-[30rem]'></div>
+                <div className='w-full'>
+                    <div className='h-[8rem] flex gap-6 w-full'>
+                        <div className='w-full '></div>
                         <div className='flex flex-col'>
-                            <Image src={XOC2} className='w-[5rem]'/>
+                            <Image src={XOC2} className='w-[5rem] h-[5rem]'/>
                         </div>
                         <div className='flex flex-col justify-end mb-4'>
-                            <Image src={XOC2} className='w-[5rem]'/>
+                            <Image src={XOC2} className='w-[5rem] h-[5rem]'/>
                         </div>
                     </div>
                     <InputBox/>
@@ -53,7 +53,7 @@ const MainContent = () => {
                 </div>
             </div>
         </div>
-        <div className='w-full h-[13rem] bg-[#FCF0E4] flex justify-between'>
+        <div className='w-full h-[13rem] bg-[#FCF0E4] flex justify-between px-[12rem]'>
             <div className='flex flex-col p-12'>
                 <Image src={XOC2} className='w-[8rem]'/>
             </div>
